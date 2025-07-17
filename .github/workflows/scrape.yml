@@ -30,7 +30,7 @@ jobs:
         pip install requests beautifulsoup4 openpyxl lxml
         
     - name: Run scraping script
-      run: python get_apchq_holidays.py
+      run: python get_holidays.py
       
     - name: Check if file exists
       run: |
